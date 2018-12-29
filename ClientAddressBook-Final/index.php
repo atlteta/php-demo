@@ -72,10 +72,10 @@ include('includes/header.php');
         <label for="login-email" class="sr-only">Email</label>
         <input type="text" class="form-control" id="login-email" placeholder="email" name="email" value="<?php echo $formEmail; ?>">
     </div>  -->
-    <div class="form-group">
+    <!--<div class="form-group">
         <label for="login-password" class="sr-only">Password</label>
         <input type="password" class="form-control" id="login-password" placeholder="password" name="password">
-    </div>
+    </div> -->
     <button type="submit" class="btn btn-primary" name="login">Login</button>
 </form>
 
