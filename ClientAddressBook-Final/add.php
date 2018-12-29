@@ -77,7 +77,7 @@ include('includes/header.php');
 
 <form action="<?php echo htmlspecialchars( $_SERVER['PHP_SELF'] ); ?>" method="post" class="row">
     <div class="form-group col-sm-6">
-        <label for="client-name">Name *</label>
+        <label for="client-name">fristName *</label>
         <input type="text" class="form-control input-lg" id="client-name" name="clientName" value="">
     </div>
     <div class="form-group col-sm-6">
